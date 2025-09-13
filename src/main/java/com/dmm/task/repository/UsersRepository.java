@@ -1,7 +1,9 @@
-package com.dmm.task.data.entity;
+package com.dmm.task.repository;
 
 
 import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.dmm.task.data.entity.Users;
 
 public interface UsersRepository extends JpaRepository<Users, String> {
 

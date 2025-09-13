@@ -1,4 +1,4 @@
-package com.dmm.task.survice;
+package com.dmm.task.controller;
 
 import java.time.LocalDate;
 import java.time.DayOfWeek;

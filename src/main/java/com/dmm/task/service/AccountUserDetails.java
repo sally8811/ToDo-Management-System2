@@ -1,4 +1,4 @@
-package com.dmm.task.survice;
+package com.dmm.task.service;
 
 import java.util.Collection;
 

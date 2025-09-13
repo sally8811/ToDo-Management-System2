@@ -1,4 +1,4 @@
-package com.dmm.task.survice;
+package com.dmm.task.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -7,7 +7,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 import com.dmm.task.data.Users;
-import com.dmm.task.data.entity.UsersRepository;
+import com.dmm.task.repository.UsersRepository;
 
 @Service // Spring管理Beanであることを指定
 public class AccountUserDetailsService implements UserDetailsService {
